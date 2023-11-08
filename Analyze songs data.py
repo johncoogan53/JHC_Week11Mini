@@ -8,7 +8,7 @@
 # MAGIC   num_songs,
 # MAGIC   year
 # MAGIC FROM
-# MAGIC   <prepared-songs-table-name>
+# MAGIC   prepared_song_data
 # MAGIC WHERE
 # MAGIC   year > 0
 # MAGIC GROUP BY
@@ -27,7 +27,7 @@
 # MAGIC    title,
 # MAGIC    tempo
 # MAGIC  FROM
-# MAGIC    <prepared-songs-table-name>
+# MAGIC    prepared_song_data
 # MAGIC  WHERE
 # MAGIC    time_signature = 4
 # MAGIC    AND

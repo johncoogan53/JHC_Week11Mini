@@ -1,7 +1,7 @@
 # Databricks notebook source
 # MAGIC %sql
 # MAGIC CREATE OR REPLACE TABLE
-# MAGIC   <table-name> (
+# MAGIC   prepared_song_data (
 # MAGIC     artist_id STRING,
 # MAGIC     artist_name STRING,
 # MAGIC     duration DOUBLE,
@@ -14,7 +14,7 @@
 # MAGIC   );
 # MAGIC
 # MAGIC INSERT INTO
-# MAGIC   <table-name>
+# MAGIC   prepared_song_data
 # MAGIC SELECT
 # MAGIC   artist_id,
 # MAGIC   artist_name,
@@ -26,4 +26,4 @@
 # MAGIC   year,
 # MAGIC   current_timestamp()
 # MAGIC FROM
-# MAGIC   <raw-songs-table-name>
+# MAGIC   raw_song_data
