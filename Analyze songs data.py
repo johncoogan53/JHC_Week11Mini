@@ -1,4 +1,5 @@
 # Databricks notebook source
+# Hello World
 # MAGIC %sql
 # MAGIC -- Which artists released the most songs each year?
 # MAGIC SELECT
