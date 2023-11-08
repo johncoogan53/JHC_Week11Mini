@@ -4,6 +4,7 @@
 # MAGIC SELECT
 # MAGIC   artist_name,
 # MAGIC   count(artist_name)
+# MAGIC
 # MAGIC AS
 # MAGIC   num_songs,
 # MAGIC   year
